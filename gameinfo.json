@@ -1,0 +1,9 @@
+{
+    "plugins": [],
+    "loadedFolders": ["_projectfolder_"],
+    "title": "scaffold_parkour",
+    "scripts": {
+        "preCompile": [],
+        "postCompile": []
+    }
+}

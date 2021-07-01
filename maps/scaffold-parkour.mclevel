@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level editor_version="0.1.0" pretty_name="Scaffold Parkour">
+    <level_data>{RandomSeed:614557607698672896l,GameRules:{doTileDrops:true,doFireTick:false,mobGriefing:false,doMobSpawning:false,doMobLoot:true,doWeatherCycle:false,doDaylightCycle:false},GameType:2,hardcore:0b,Difficulty:2b,DifficultyLocked:0b}</level_data>
+    <entities>
+        <world_brush name="startroom_floor">
+            <attributes>
+                <vector_attribute name="end_point" x="7.0" y="1.0" z="7.0"/>
+                <block_texture external="false" name="texture">
+                    <single_block>
+                        <block_attribute block_name="minecraft:quartz_block" name="block">
+                            <NBT>{}</NBT>
+                        </block_attribute>
+                    </single_block>
+                </block_texture>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="0.0" y="42.0" z="0.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <info_player_start name="info_player_start">
+            <attributes>
+                <vector_attribute name="position" x="3.0" y="38.0" z="3.0"/>
+            </attributes>
+            <outputs/>
+        </info_player_start>
+        <world_brush name="world_brush">
+            <attributes>
+                <vector_attribute name="end_point" x="7.0" y="4.0" z="1.0"/>
+                <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="0.0" y="38.0" z="-1.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <world_brush name="world_brush1">
+            <attributes>
+                <vector_attribute name="end_point" x="1.0" y="4.0" z="7.0"/>
+                <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="-1.0" y="38.0" z="0.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <world_brush name="world_brush2">
+            <attributes>
+                <vector_attribute name="end_point" x="7.0" y="4.0" z="1.0"/>
+                <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="0.0" y="38.0" z="7.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <world_brush name="world_brush3">
+            <attributes>
+                <vector_attribute name="end_point" x="1.0" y="4.0" z="7.0"/>
+                <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="7.0" y="38.0" z="0.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <world_brush name="startroom_floor1">
+            <attributes>
+                <vector_attribute name="end_point" x="7.0" y="1.0" z="7.0"/>
+                <block_texture external="false" name="texture">
+                    <single_block>
+                        <block_attribute block_name="minecraft:quartz_block" name="block">
+                            <NBT>{}</NBT>
+                        </block_attribute>
+                    </single_block>
+                </block_texture>
+                <vector_attribute name="texture_scale" x="1.0" y="1.0" z="1.0"/>
+                <vector_attribute name="texture_offset" x="0.0" y="0.0" z="0.0"/>
+                <vector_attribute name="position" x="0.0" y="37.0" z="0.0"/>
+            </attributes>
+            <outputs/>
+        </world_brush>
+        <single_block name="light">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:sea_lantern"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="4.0" y="42.0" z="4.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <single_block name="light1">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:sea_lantern"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="4.0" y="42.0" z="2.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <single_block name="light2">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:sea_lantern"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="2.0" y="42.0" z="2.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <single_block name="light3">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:sea_lantern"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="2.0" y="42.0" z="4.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <single_block name="start_button">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:stone_button"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="3.0" y="39.0" z="6.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <single_block name="single_block">
+            <attributes>
+                <string_attribute name="blockName" value="minecraft:white_concrete"/>
+                <nbt_attribute name="blockProperties">
+                    <NBT>{}</NBT>
+                </nbt_attribute>
+                <vector_attribute name="position" x="3.0" y="39.0" z="7.0"/>
+            </attributes>
+            <outputs/>
+        </single_block>
+        <redstone_listener name="redstone_listener">
+            <attributes>
+                <bool_attribute name="repeating" value="false"/>
+                <vector_attribute name="position" x="3.0" y="39.0" z="8.0"/>
+            </attributes>
+            <outputs>
+                <output inputName="trigger" target="relay_begin_level" trigger="on_powered"/>
+            </outputs>
+        </redstone_listener>
+        <logic_relay name="relay_begin_level">
+            <attributes>
+                <int_attribute name="delay" value="0"/>
+                <string_attribute name="executorOverride" value="@p"/>
+                <vector_attribute name="position" x="2.0" y="41.0" z="6.0"/>
+            </attributes>
+            <outputs/>
+        </logic_relay>
+    </entities>
+</level>
