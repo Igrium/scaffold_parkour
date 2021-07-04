@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<noise>
-    <long_attribute name="seed" value="1"/>
-    <list_attribute name="blocks">
-        <block_attribute block_name="minecraft:light_gray_concrete">
-            <NBT>{}</NBT>
-        </block_attribute>
-    </list_attribute>
-    <double_attribute name="scale" value="1.0"/>
-</noise>
+<single_block>
+    <block_attribute block_name="minecraft:white_concrete" name="block">
+        <NBT>{}</NBT>
+    </block_attribute>
+</single_block>

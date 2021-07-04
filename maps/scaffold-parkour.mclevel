@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<level editor_version="0.1.0" pretty_name="Scaffold Parkour">
+<level editor_version="0.1.0" enable_resourcepack="false" pretty_name="Scaffold Parkour">
     <level_data>{RandomSeed:614557607698672896l,GameRules:{doTileDrops:true,doFireTick:false,mobGriefing:false,doMobSpawning:false,doMobLoot:true,doWeatherCycle:false,doDaylightCycle:false},GameType:2,hardcore:0b,Difficulty:0b,DifficultyLocked:1b}</level_data>
     <group name="">
+        <group name="ext">
+            <world_brush name="world_brush4">
+                <attributes>
+                    <vector_attribute name="end_point" x="138.0" y="7.0" z="1.0"/>
+                    <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                    <vector_attribute name="position" x="-133.0" y="53.0" z="0.0"/>
+                </attributes>
+                <outputs/>
+            </world_brush>
+            <world_brush name="world_brush5">
+                <attributes>
+                    <vector_attribute name="end_point" x="138.0" y="7.0" z="1.0"/>
+                    <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                    <vector_attribute name="position" x="-133.0" y="53.0" z="11.0"/>
+                </attributes>
+                <outputs/>
+            </world_brush>
+        </group>
         <group name="spawn_room">
             <world_brush name="startroom_floor">
                 <attributes>
@@ -189,13 +207,7 @@
                 <world_brush name="wall">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-17.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -203,13 +215,7 @@
                 <world_brush name="wall1">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-19.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -287,13 +293,7 @@
                 <world_brush name="wall2">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="5.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -378,13 +378,7 @@
                 <world_brush name="wall3">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-50.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -392,13 +386,7 @@
                 <world_brush name="wall4">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-52.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -550,13 +538,7 @@
                 <world_brush name="wall5">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-92.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -564,13 +546,7 @@
                 <world_brush name="wall6">
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
-                        <block_texture external="false" name="texture">
-                            <single_block>
-                                <block_attribute block_name="minecraft:white_concrete" name="block">
-                                    <NBT>{}</NBT>
-                                </block_attribute>
-                            </single_block>
-                        </block_texture>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-94.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
@@ -721,6 +697,90 @@
                     <output inputName="disable" target="door_activator_3" trigger="on_start_touch"/>
                 </outputs>
             </trigger_multiple>
+        </group>
+        <group name="level4">
+            <group name="geometry">
+                <world_brush name="lowerwall11">
+                    <attributes>
+                        <vector_attribute name="end_point" x="28.0" y="4.0" z="1.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-127.0" y="49.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="lowerwall12">
+                    <attributes>
+                        <vector_attribute name="end_point" x="28.0" y="4.0" z="1.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-127.0" y="49.0" z="11.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="floor3">
+                    <attributes>
+                        <vector_attribute name="end_point" x="28.0" y="1.0" z="10.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-127.0" y="48.0" z="1.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="lowerwall13">
+                    <attributes>
+                        <vector_attribute name="end_point" x="14.0" y="5.0" z="12.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-141.0" y="48.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="wall7">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                        <vector_attribute name="position" x="-134.0" y="53.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="wall8">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                        <vector_attribute name="position" x="-136.0" y="53.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_static name="door4">
+                    <attributes>
+                        <bool_attribute name="place_air" value="true"/>
+                        <asset_attribute name="model" type="schematic" value="schematics/door.nbt"/>
+                        <vector_attribute name="position" x="-136.0" y="53.0" z="3.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+            </group>
         </group>
     </group>
 </level>
