@@ -307,6 +307,15 @@
                     <outputs/>
                 </world_static>
             </group>
+            <trigger_multiple name="end_close_trigger_1">
+                <attributes>
+                    <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                    <vector_attribute name="position" x="-21.0" y="53.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="disable" target="door_activator_1" trigger="on_start_touch"/>
+                </outputs>
+            </trigger_multiple>
         </group>
         <group name="level2">
             <group name="geometry">
@@ -470,6 +479,15 @@
                     </logic_command>
                 </group>
             </group>
+            <trigger_multiple name="end_close_trigger_2">
+                <attributes>
+                    <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                    <vector_attribute name="position" x="-54.0" y="53.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="disable" target="door_activator_2" trigger="on_start_touch"/>
+                </outputs>
+            </trigger_multiple>
         </group>
         <group name="level3">
             <group name="geometry">
@@ -694,6 +712,15 @@
                 </attributes>
                 <outputs/>
             </logic_teleport>
+            <trigger_multiple name="end_close_trigger_3">
+                <attributes>
+                    <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                    <vector_attribute name="position" x="-96.0" y="53.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="disable" target="door_activator_3" trigger="on_start_touch"/>
+                </outputs>
+            </trigger_multiple>
         </group>
     </group>
 </level>
