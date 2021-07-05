@@ -781,6 +781,30 @@
                     <outputs/>
                 </world_static>
             </group>
+            <logic_relay name="relay_failed4">
+                <attributes>
+                    <int_attribute name="delay" value="5"/>
+                    <vector_attribute name="position" x="-96.0" y="54.0" z="4.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="teleport" target="teleport4" trigger="on_trigger"/>
+                </outputs>
+            </logic_relay>
+            <trigger_individual name="teleport_trigger4">
+                <attributes>
+                    <vector_attribute name="end_point" x="28.0" y="0.25" z="10.0"/>
+                    <vector_attribute name="position" x="-127.0" y="49.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="trigger" target="relay_failed4" trigger="on_entity_tick"/>
+                </outputs>
+            </trigger_individual>
+            <logic_teleport name="teleport4">
+                <attributes>
+                    <vector_attribute name="position" x="-96.0" y="54.0" z="6.0"/>
+                </attributes>
+                <outputs/>
+            </logic_teleport>
         </group>
     </group>
 </level>
