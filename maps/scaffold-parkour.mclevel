@@ -21,6 +21,21 @@
             </world_brush>
         </group>
         <group name="spawn_room">
+            <logic_command name="noFallDamage">
+                <attributes>
+                    <vector_attribute name="position" x="4.0" y="41.0" z="6.0"/>
+                    <string_attribute name="command" value="gamerule fallDamage false"/>
+                </attributes>
+                <outputs/>
+            </logic_command>
+            <logic_auto name="logic_auto">
+                <attributes>
+                    <vector_attribute name="position" x="3.0" y="41.0" z="6.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="execute" target="noFallDamage" trigger="on_datapack_load"/>
+                </outputs>
+            </logic_auto>
             <world_brush name="startroom_floor">
                 <attributes>
                     <vector_attribute name="end_point" x="7.0" y="1.0" z="7.0"/>
