@@ -5,17 +5,17 @@
         <group name="ext">
             <world_brush name="world_brush4">
                 <attributes>
-                    <vector_attribute name="end_point" x="138.0" y="7.0" z="1.0"/>
+                    <vector_attribute name="end_point" x="170.0" y="7.0" z="1.0"/>
                     <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                    <vector_attribute name="position" x="-133.0" y="53.0" z="0.0"/>
+                    <vector_attribute name="position" x="-165.0" y="53.0" z="0.0"/>
                 </attributes>
                 <outputs/>
             </world_brush>
             <world_brush name="world_brush5">
                 <attributes>
-                    <vector_attribute name="end_point" x="138.0" y="7.0" z="1.0"/>
+                    <vector_attribute name="end_point" x="170.0" y="7.0" z="1.0"/>
                     <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                    <vector_attribute name="position" x="-133.0" y="53.0" z="11.0"/>
+                    <vector_attribute name="position" x="-165.0" y="53.0" z="11.0"/>
                 </attributes>
                 <outputs/>
             </world_brush>
@@ -702,7 +702,7 @@
             <group name="geometry">
                 <world_brush name="lowerwall11">
                     <attributes>
-                        <vector_attribute name="end_point" x="28.0" y="4.0" z="1.0"/>
+                        <vector_attribute name="end_point" x="51.0" y="4.0" z="1.0"/>
                         <block_texture external="false" name="texture">
                             <single_block>
                                 <block_attribute block_name="minecraft:gray_concrete" name="block">
@@ -710,13 +710,13 @@
                                 </block_attribute>
                             </single_block>
                         </block_texture>
-                        <vector_attribute name="position" x="-127.0" y="49.0" z="0.0"/>
+                        <vector_attribute name="position" x="-150.0" y="49.0" z="0.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
                 <world_brush name="lowerwall12">
                     <attributes>
-                        <vector_attribute name="end_point" x="28.0" y="4.0" z="1.0"/>
+                        <vector_attribute name="end_point" x="51.0" y="4.0" z="1.0"/>
                         <block_texture external="false" name="texture">
                             <single_block>
                                 <block_attribute block_name="minecraft:gray_concrete" name="block">
@@ -724,13 +724,13 @@
                                 </block_attribute>
                             </single_block>
                         </block_texture>
-                        <vector_attribute name="position" x="-127.0" y="49.0" z="11.0"/>
+                        <vector_attribute name="position" x="-150.0" y="49.0" z="11.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
                 <world_brush name="floor3">
                     <attributes>
-                        <vector_attribute name="end_point" x="28.0" y="1.0" z="10.0"/>
+                        <vector_attribute name="end_point" x="51.0" y="1.0" z="10.0"/>
                         <block_texture external="false" name="texture">
                             <single_block>
                                 <block_attribute block_name="minecraft:gray_concrete" name="block">
@@ -738,7 +738,7 @@
                                 </block_attribute>
                             </single_block>
                         </block_texture>
-                        <vector_attribute name="position" x="-127.0" y="48.0" z="1.0"/>
+                        <vector_attribute name="position" x="-150.0" y="48.0" z="1.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
@@ -752,7 +752,7 @@
                                 </block_attribute>
                             </single_block>
                         </block_texture>
-                        <vector_attribute name="position" x="-141.0" y="48.0" z="0.0"/>
+                        <vector_attribute name="position" x="-164.0" y="48.0" z="0.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
@@ -760,7 +760,7 @@
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                        <vector_attribute name="position" x="-134.0" y="53.0" z="0.0"/>
+                        <vector_attribute name="position" x="-157.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
@@ -768,7 +768,7 @@
                     <attributes>
                         <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                        <vector_attribute name="position" x="-136.0" y="53.0" z="0.0"/>
+                        <vector_attribute name="position" x="-159.0" y="53.0" z="0.0"/>
                     </attributes>
                     <outputs/>
                 </world_brush>
@@ -776,7 +776,7 @@
                     <attributes>
                         <bool_attribute name="place_air" value="true"/>
                         <asset_attribute name="model" type="schematic" value="schematics/door.nbt"/>
-                        <vector_attribute name="position" x="-136.0" y="53.0" z="3.0"/>
+                        <vector_attribute name="position" x="-159.0" y="53.0" z="3.0"/>
                     </attributes>
                     <outputs/>
                 </world_static>
@@ -792,8 +792,8 @@
             </logic_relay>
             <trigger_individual name="teleport_trigger4">
                 <attributes>
-                    <vector_attribute name="end_point" x="28.0" y="0.25" z="10.0"/>
-                    <vector_attribute name="position" x="-127.0" y="49.0" z="1.0"/>
+                    <vector_attribute name="end_point" x="51.01918" y="0.25" z="10.0"/>
+                    <vector_attribute name="position" x="-150.01918" y="49.0" z="1.0"/>
                 </attributes>
                 <outputs>
                     <output inputName="trigger" target="relay_failed4" trigger="on_entity_tick"/>
@@ -805,6 +805,121 @@
                 </attributes>
                 <outputs/>
             </logic_teleport>
+            <group name="platforms">
+                <world_static name="platform11">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-104.0" y="52.0" z="5.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_static name="platform10">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-103.0" y="51.0" z="8.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <group name="levipad">
+                    <world_static name="levipad3">
+                        <attributes>
+                            <asset_attribute name="model" type="schematic" value="schematics/levipad.nbt"/>
+                            <vector_attribute name="position" x="-111.0" y="54.0" z="4.0"/>
+                        </attributes>
+                        <outputs/>
+                    </world_static>
+                    <trigger_individual name="levipad_trigger3">
+                        <attributes>
+                            <vector_attribute name="end_point" x="5.0" y="3.0" z="5.0"/>
+                            <vector_attribute name="position" x="-111.0" y="55.0" z="4.0"/>
+                        </attributes>
+                        <outputs>
+                            <output inputName="execute" target="levipad_command3" trigger="on_entity_tick"/>
+                        </outputs>
+                    </trigger_individual>
+                    <logic_command name="levipad_command3">
+                        <attributes>
+                            <vector_attribute name="position" x="-107.0" y="57.0" z="3.0"/>
+                            <string_attribute name="command" value="effect give @s minecraft:levitation 1 7"/>
+                        </attributes>
+                        <outputs/>
+                    </logic_command>
+                </group>
+                <group name="levipad">
+                    <world_static name="levipad4">
+                        <attributes>
+                            <asset_attribute name="model" type="schematic" value="schematics/levipad.nbt"/>
+                            <vector_attribute name="position" x="-123.0" y="58.0" z="4.0"/>
+                        </attributes>
+                        <outputs/>
+                    </world_static>
+                    <trigger_individual name="levipad_trigger4">
+                        <attributes>
+                            <vector_attribute name="end_point" x="5.0" y="3.0" z="5.0"/>
+                            <vector_attribute name="position" x="-123.0" y="59.0" z="4.0"/>
+                        </attributes>
+                        <outputs>
+                            <output inputName="execute" target="levipad_command4" trigger="on_entity_tick"/>
+                        </outputs>
+                    </trigger_individual>
+                    <logic_command name="levipad_command4">
+                        <attributes>
+                            <vector_attribute name="position" x="-119.0" y="61.0" z="3.0"/>
+                            <string_attribute name="command" value="effect give @s minecraft:levitation 1 7"/>
+                        </attributes>
+                        <outputs/>
+                    </logic_command>
+                </group>
+                <group name="levipad">
+                    <world_static name="levipad5">
+                        <attributes>
+                            <asset_attribute name="model" type="schematic" value="schematics/levipad.nbt"/>
+                            <vector_attribute name="position" x="-140.0" y="51.0" z="4.0"/>
+                        </attributes>
+                        <outputs/>
+                    </world_static>
+                    <trigger_individual name="levipad_trigger5">
+                        <attributes>
+                            <vector_attribute name="end_point" x="5.0" y="3.0" z="5.0"/>
+                            <vector_attribute name="position" x="-140.0" y="52.0" z="4.0"/>
+                        </attributes>
+                        <outputs>
+                            <output inputName="execute" target="levipad_command5" trigger="on_entity_tick"/>
+                        </outputs>
+                    </trigger_individual>
+                    <logic_command name="levipad_command5">
+                        <attributes>
+                            <vector_attribute name="position" x="-136.0" y="54.0" z="3.0"/>
+                            <string_attribute name="command" value="effect give @s minecraft:levitation 1 7"/>
+                        </attributes>
+                        <outputs/>
+                    </logic_command>
+                </group>
+            </group>
+            <redstone_trigger name="door_activator_4">
+                <attributes>
+                    <vector_attribute name="position" x="-158.0" y="58.0" z="5.0"/>
+                </attributes>
+                <outputs/>
+            </redstone_trigger>
+            <trigger_multiple name="end_tigger_4">
+                <attributes>
+                    <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                    <vector_attribute name="position" x="-154.0" y="53.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="enable" target="door_activator_4" trigger="on_start_touch"/>
+                </outputs>
+            </trigger_multiple>
+            <trigger_multiple name="end_close_trigger_4">
+                <attributes>
+                    <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                    <vector_attribute name="position" x="-161.0" y="53.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="disable" target="door_activator_4" trigger="on_start_touch"/>
+                </outputs>
+            </trigger_multiple>
         </group>
     </group>
 </level>
