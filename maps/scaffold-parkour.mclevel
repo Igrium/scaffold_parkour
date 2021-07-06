@@ -165,7 +165,6 @@
         <group name="level1">
             <logic_relay name="relay_failed1">
                 <attributes>
-                    <int_attribute name="delay" value="5"/>
                     <vector_attribute name="position" x="3.0" y="54.0" z="4.0"/>
                 </attributes>
                 <outputs>
@@ -432,7 +431,6 @@
             </trigger_multiple>
             <logic_relay name="relay_failed2">
                 <attributes>
-                    <int_attribute name="delay" value="5"/>
                     <vector_attribute name="position" x="-22.0" y="54.0" z="4.0"/>
                 </attributes>
                 <outputs>
@@ -681,7 +679,6 @@
             </group>
             <logic_relay name="relay_failed3">
                 <attributes>
-                    <int_attribute name="delay" value="5"/>
                     <vector_attribute name="position" x="-54.0" y="54.0" z="4.0"/>
                 </attributes>
                 <outputs>
@@ -798,7 +795,6 @@
             </group>
             <logic_relay name="relay_failed4">
                 <attributes>
-                    <int_attribute name="delay" value="5"/>
                     <vector_attribute name="position" x="-96.0" y="54.0" z="4.0"/>
                 </attributes>
                 <outputs>
