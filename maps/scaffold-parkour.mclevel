@@ -5,17 +5,17 @@
         <group name="ext">
             <world_brush name="world_brush4">
                 <attributes>
-                    <vector_attribute name="end_point" x="258.0" y="14.0" z="1.0"/>
+                    <vector_attribute name="end_point" x="314.0" y="14.0" z="1.0"/>
                     <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                    <vector_attribute name="position" x="-253.0" y="53.0" z="0.0"/>
+                    <vector_attribute name="position" x="-309.0" y="53.0" z="0.0"/>
                 </attributes>
                 <outputs/>
             </world_brush>
             <world_brush name="world_brush5">
                 <attributes>
-                    <vector_attribute name="end_point" x="258.0" y="14.0" z="1.0"/>
+                    <vector_attribute name="end_point" x="314.0" y="14.0" z="1.0"/>
                     <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
-                    <vector_attribute name="position" x="-253.0" y="53.0" z="11.0"/>
+                    <vector_attribute name="position" x="-309.0" y="53.0" z="11.0"/>
                 </attributes>
                 <outputs/>
             </world_brush>
@@ -1497,6 +1497,7 @@
                     </attributes>
                     <outputs>
                         <output inputName="disable" target="door_activator_6" trigger="on_start_touch"/>
+                        <output inputName="trigger" target="relay_level7_start" trigger="on_start_touch"/>
                     </outputs>
                 </trigger_multiple>
             </group>
@@ -1673,7 +1674,7 @@
                 <path_node name="path_node12">
                     <attributes>
                         <entity_attribute name="next" target="path_node13"/>
-                        <vector_attribute name="position" x="-212.0" y="50.992626" z="7.5"/>
+                        <vector_attribute name="position" x="-212.0" y="51.09194" z="7.5"/>
                     </attributes>
                     <outputs/>
                 </path_node>
@@ -1687,7 +1688,7 @@
                 <path_node name="path_node14">
                     <attributes>
                         <entity_attribute name="next" target="path_node15"/>
-                        <vector_attribute name="position" x="-224.48526" y="50.992626" z="8.858108"/>
+                        <vector_attribute name="position" x="-224.48526" y="50.92918" z="8.858108"/>
                     </attributes>
                     <outputs/>
                 </path_node>
@@ -1721,5 +1722,438 @@
                 </path_node>
             </group>
         </group>
+        <group name="level7">
+            <logic_relay name="relay_level7_start">
+                <attributes>
+                    <vector_attribute name="position" x="-254.0" y="55.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="reset" target="path_train7" trigger="on_trigger"/>
+                    <output inputName="start_forward" target="path_train7" trigger="on_trigger"/>
+                    <output inputName="reset" target="path_train8" trigger="on_trigger"/>
+                    <output inputName="reset" target="path_train9" trigger="on_trigger"/>
+                </outputs>
+            </logic_relay>
+            <group name="geometry">
+                <world_brush name="wall13">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                        <vector_attribute name="position" x="-301.0" y="53.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="wall14">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
+                        <vector_attribute name="position" x="-303.0" y="53.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="lowerwall110">
+                    <attributes>
+                        <vector_attribute name="end_point" x="14.0" y="5.0" z="12.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-309.0" y="48.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="lowerwall111">
+                    <attributes>
+                        <vector_attribute name="end_point" x="42.0" y="4.0" z="1.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-295.0" y="49.0" z="0.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="lowerwall112">
+                    <attributes>
+                        <vector_attribute name="end_point" x="42.0" y="4.0" z="1.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-295.0" y="49.0" z="11.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_brush name="floor6">
+                    <attributes>
+                        <vector_attribute name="end_point" x="42.0" y="1.0" z="10.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:gray_concrete" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-295.0" y="48.0" z="1.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+            </group>
+            <group name="platforms">
+                <world_brush name="honey">
+                    <attributes>
+                        <vector_attribute name="end_point" x="7.0" y="5.0" z="1.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:honey_block" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-279.0" y="60.0" z="1.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_static name="platform18">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-255.0" y="52.0" z="2.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_static name="platform19">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-255.0" y="53.0" z="5.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_static name="platform20">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-255.0" y="54.0" z="8.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <group name="levipad">
+                    <world_static name="levipad7">
+                        <attributes>
+                            <asset_attribute name="model" type="schematic" value="schematics/levipad.nbt"/>
+                            <vector_attribute name="position" x="-269.0" y="52.0" z="3.0"/>
+                        </attributes>
+                        <outputs/>
+                    </world_static>
+                    <trigger_individual name="levipad_trigger7">
+                        <attributes>
+                            <vector_attribute name="end_point" x="5.0" y="3.0" z="5.0"/>
+                            <vector_attribute name="position" x="-269.0" y="53.0" z="3.0"/>
+                        </attributes>
+                        <outputs>
+                            <output inputName="execute" target="levipad_command7" trigger="on_entity_tick"/>
+                        </outputs>
+                    </trigger_individual>
+                    <logic_command name="levipad_command7">
+                        <attributes>
+                            <vector_attribute name="position" x="-265.0" y="55.0" z="2.0"/>
+                            <string_attribute name="command" value="effect give @s minecraft:levitation 1 7"/>
+                        </attributes>
+                        <outputs/>
+                    </logic_command>
+                </group>
+                <world_static name="platform21">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-280.0" y="57.0" z="2.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_brush name="honey1">
+                    <attributes>
+                        <vector_attribute name="end_point" x="7.0" y="7.0" z="3.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:honey_block" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-288.0" y="54.0" z="8.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+                <world_static name="platform22">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-291.0" y="51.0" z="1.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_static name="platform23">
+                    <attributes>
+                        <asset_attribute name="model" type="schematic" value="schematics/platform.nbt"/>
+                        <vector_attribute name="position" x="-293.0" y="50.0" z="5.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <world_brush name="world_brush10">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="18.0" z="5.0"/>
+                        <block_texture external="false" name="texture">
+                            <single_block>
+                                <block_attribute block_name="minecraft:white_stained_glass" name="block">
+                                    <NBT>{}</NBT>
+                                </block_attribute>
+                            </single_block>
+                        </block_texture>
+                        <vector_attribute name="position" x="-277.0" y="49.0" z="6.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_brush>
+            </group>
+            <group name="path">
+                <path_node name="path_node18">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node20"/>
+                        <vector_attribute name="position" x="-255.5" y="55.0" z="8.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node20">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node21"/>
+                        <vector_attribute name="position" x="-263.5" y="55.0" z="8.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node21">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node22"/>
+                        <vector_attribute name="position" x="-263.5" y="55.0" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node22">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node23"/>
+                        <vector_attribute name="position" x="-258.2269" y="55.0" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node23">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node18"/>
+                        <vector_attribute name="position" x="-255.5" y="55.0" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node25">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node29"/>
+                        <vector_attribute name="position" x="-280.5" y="58.0" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node24">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node25"/>
+                        <vector_attribute name="position" x="-280.5" y="58.0" z="1.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node28">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node24"/>
+                        <vector_attribute name="position" x="-282.36554" y="58.96493" z="1.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node27">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node28"/>
+                        <vector_attribute name="position" x="-288.5" y="54.0" z="1.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node26">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node27"/>
+                        <vector_attribute name="position" x="-288.5" y="54.0" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+                <path_node name="path_node29">
+                    <attributes>
+                        <entity_attribute name="next" target="path_node26"/>
+                        <vector_attribute name="position" x="-283.98514" y="56.396214" z="10.5"/>
+                    </attributes>
+                    <outputs/>
+                </path_node>
+            </group>
+            <group name="boats">
+                <group name="boat">
+                    <phys_parent name="boat_parent7">
+                        <attributes>
+                            <entity_attribute name="parent" target="path_train7"/>
+                            <vector_attribute name="position" x="-259.0" y="56.0" z="10.0"/>
+                            <entity_attribute name="child" target="path_boat7"/>
+                        </attributes>
+                        <outputs/>
+                    </phys_parent>
+                    <path_train name="path_train7">
+                        <attributes>
+                            <entity_attribute name="starting_path_node" target="path_node22"/>
+                            <vector_attribute name="position" x="-258.0" y="55.0" z="10.5"/>
+                            <float_attribute name="speed" value="2.0"/>
+                        </attributes>
+                        <outputs/>
+                    </path_train>
+                    <game_entity name="path_boat7">
+                        <attributes>
+                            <nbt_attribute name="nbt">
+                                <NBT>{NoGravity:1b,Invulnerable:1b}</NBT>
+                            </nbt_attribute>
+                            <float_attribute name="rotX" value="90.0"/>
+                            <string_attribute name="entityType" value="minecraft:boat"/>
+                            <vector_attribute name="position" x="-258.0" y="55.0" z="10.5"/>
+                        </attributes>
+                        <outputs/>
+                    </game_entity>
+                </group>
+                <group name="boat">
+                    <phys_parent name="boat_parent8">
+                        <attributes>
+                            <entity_attribute name="parent" target="path_train8"/>
+                            <vector_attribute name="position" x="-281.0" y="59.0" z="1.0"/>
+                            <entity_attribute name="child" target="path_boat8"/>
+                        </attributes>
+                        <outputs/>
+                    </phys_parent>
+                    <path_train name="path_train8">
+                        <attributes>
+                            <entity_attribute name="starting_path_node" target="path_node24"/>
+                            <vector_attribute name="position" x="-280.0" y="58.0" z="1.5"/>
+                            <float_attribute name="speed" value="2.0"/>
+                        </attributes>
+                        <outputs/>
+                    </path_train>
+                    <game_entity name="path_boat8">
+                        <attributes>
+                            <nbt_attribute name="nbt">
+                                <NBT>{NoGravity:1b,Invulnerable:1b}</NBT>
+                            </nbt_attribute>
+                            <float_attribute name="rotX" value="90.0"/>
+                            <string_attribute name="entityType" value="minecraft:boat"/>
+                            <vector_attribute name="position" x="-280.0" y="58.0" z="1.5"/>
+                        </attributes>
+                        <outputs/>
+                    </game_entity>
+                </group>
+                <group name="boat">
+                    <phys_parent name="boat_parent9">
+                        <attributes>
+                            <entity_attribute name="parent" target="path_train9"/>
+                            <vector_attribute name="position" x="-290.0" y="55.0" z="7.0"/>
+                            <entity_attribute name="child" target="path_boat9"/>
+                        </attributes>
+                        <outputs/>
+                    </phys_parent>
+                    <path_train name="path_train9">
+                        <attributes>
+                            <entity_attribute name="starting_path_node" target="path_node29"/>
+                            <vector_attribute name="position" x="-289.0" y="54.0" z="7.5"/>
+                            <float_attribute name="speed" value="2.0"/>
+                        </attributes>
+                        <outputs/>
+                    </path_train>
+                    <game_entity name="path_boat9">
+                        <attributes>
+                            <nbt_attribute name="nbt">
+                                <NBT>{NoGravity:1b,Invulnerable:1b}</NBT>
+                            </nbt_attribute>
+                            <float_attribute name="rotX" value="90.0"/>
+                            <string_attribute name="entityType" value="minecraft:boat"/>
+                            <vector_attribute name="position" x="-289.0" y="54.0" z="7.5"/>
+                        </attributes>
+                        <outputs/>
+                    </game_entity>
+                </group>
+            </group>
+            <logic_relay name="relay_failed7">
+                <attributes>
+                    <vector_attribute name="position" x="-249.0" y="54.0" z="4.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="teleport" target="teleport7" trigger="on_trigger"/>
+                </outputs>
+            </logic_relay>
+            <trigger_individual name="teleport_trigger7">
+                <attributes>
+                    <vector_attribute name="end_point" x="42.0" y="1.0" z="10.0"/>
+                    <vector_attribute name="position" x="-295.0" y="49.0" z="1.0"/>
+                </attributes>
+                <outputs>
+                    <output inputName="trigger" target="relay_failed7" trigger="on_entity_tick"/>
+                </outputs>
+            </trigger_individual>
+            <logic_teleport name="teleport7">
+                <attributes>
+                    <vector_attribute name="position" x="-249.0" y="54.0" z="6.0"/>
+                </attributes>
+                <outputs/>
+            </logic_teleport>
+            <group name="door">
+                <world_static name="door7">
+                    <attributes>
+                        <bool_attribute name="place_air" value="true"/>
+                        <asset_attribute name="model" type="schematic" value="schematics/door.nbt"/>
+                        <vector_attribute name="position" x="-303.0" y="53.0" z="3.0"/>
+                    </attributes>
+                    <outputs/>
+                </world_static>
+                <redstone_trigger name="door_activator_7">
+                    <attributes>
+                        <vector_attribute name="position" x="-302.0" y="58.0" z="5.0"/>
+                    </attributes>
+                    <outputs/>
+                </redstone_trigger>
+                <trigger_multiple name="end_tigger_7">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                        <vector_attribute name="position" x="-298.0" y="53.0" z="1.0"/>
+                    </attributes>
+                    <outputs>
+                        <output inputName="enable" target="door_activator_7" trigger="on_start_touch"/>
+                    </outputs>
+                </trigger_multiple>
+                <trigger_multiple name="end_close_trigger_7">
+                    <attributes>
+                        <vector_attribute name="end_point" x="1.0" y="6.0" z="10.0"/>
+                        <vector_attribute name="position" x="-305.0" y="53.0" z="1.0"/>
+                    </attributes>
+                    <outputs>
+                        <output inputName="disable" target="door_activator_7" trigger="on_start_touch"/>
+                        <output inputName="trigger" target="relay_level7_start" trigger="on_start_touch"/>
+                    </outputs>
+                </trigger_multiple>
+            </group>
+        </group>
+        <trigger_multiple name="trigger_multiple">
+            <attributes>
+                <vector_attribute name="position" x="-280.0" y="59.0" z="2.0"/>
+            </attributes>
+            <outputs>
+                <output inputName="start_forward" target="path_train8" trigger="on_start_touch"/>
+                <output inputName="start_forward" target="path_train9" trigger="on_start_touch"/>
+            </outputs>
+        </trigger_multiple>
     </group>
 </level>
