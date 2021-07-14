@@ -220,7 +220,7 @@
             <group name="geometry">
                 <world_brush name="wall">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-17.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -228,7 +228,7 @@
                 </world_brush>
                 <world_brush name="wall1">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-19.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -306,7 +306,7 @@
                 </world_brush>
                 <world_brush name="wall2">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="5.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -391,7 +391,7 @@
                 </world_brush>
                 <world_brush name="wall3">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-50.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -399,7 +399,7 @@
                 </world_brush>
                 <world_brush name="wall4">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-52.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -550,7 +550,7 @@
                 </world_brush>
                 <world_brush name="wall5">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-92.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -558,7 +558,7 @@
                 </world_brush>
                 <world_brush name="wall6">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-94.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -770,7 +770,7 @@
                 </world_brush>
                 <world_brush name="wall7">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-157.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -778,7 +778,7 @@
                 </world_brush>
                 <world_brush name="wall8">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-159.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -987,7 +987,7 @@
             <group name="geometry">
                 <world_brush name="wall9">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="13.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-189.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -995,7 +995,7 @@
                 </world_brush>
                 <world_brush name="wall10">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="13.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-191.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -1395,7 +1395,7 @@
             <group name="geometry">
                 <world_brush name="wall11">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-245.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -1403,7 +1403,7 @@
                 </world_brush>
                 <world_brush name="wall12">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-247.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -1746,7 +1746,7 @@
             <group name="geometry">
                 <world_brush name="wall13">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-301.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -1754,7 +1754,7 @@
                 </world_brush>
                 <world_brush name="wall14">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-303.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -2168,7 +2168,7 @@
             <group name="geometry">
                 <world_brush name="wall15">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-357.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -2176,7 +2176,7 @@
                 </world_brush>
                 <world_brush name="wall16">
                     <attributes>
-                        <vector_attribute name="end_point" x="1.0" y="7.0" z="12.0"/>
+                        <vector_attribute name="end_point" x="1.0" y="14.0" z="12.0"/>
                         <block_texture external="true" externalPath="textures/wall.texture" name="texture"/>
                         <vector_attribute name="position" x="-359.0" y="53.0" z="0.0"/>
                     </attributes>
@@ -2686,6 +2686,16 @@
                     </outputs>
                 </trigger_multiple>
             </group>
+        </group>
+        <group name="detail">
+            <world_static name="observation_room">
+                <attributes>
+                    <bool_attribute name="place_air" value="true"/>
+                    <asset_attribute name="model" type="schematic" value="schematics/observation_room_a.nbt"/>
+                    <vector_attribute name="position" x="5.0" y="57.0" z="2.0"/>
+                </attributes>
+                <outputs/>
+            </world_static>
         </group>
     </group>
 </level>
